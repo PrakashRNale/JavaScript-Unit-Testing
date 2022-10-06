@@ -1,0 +1,23 @@
+{
+  "name": "javascript-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run --globals --reporter verbose",
+    "test:watch" : "vitest watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdemyCoursesPrakash/JavaScript-Unit-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UdemyCoursesPrakash/JavaScript-Unit-Testing/issues"
+  },
+  "homepage": "https://github.com/UdemyCoursesPrakash/JavaScript-Unit-Testing#readme",
+  "dependencies": {
+    "vitest": "^0.23.4"
+  }
+}
