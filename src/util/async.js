@@ -1,5 +1,5 @@
 
-export const getAdditionAsync = (numOne, numTwo) =>{
+export const getAdditionPromise = (numOne, numTwo) =>{
     const promise = new Promise((resolve, reject) =>{
         setTimeout(() =>{
             const result = numOne + numTwo;
@@ -9,4 +9,11 @@ export const getAdditionAsync = (numOne, numTwo) =>{
     })
 
     return promise;
+}
+
+export const getAdditionCallback = (numOne, numTwo, cb) =>{
+    setTimeout(() =>{
+        const result = numOne + numTwo
+        cb(result);
+    },1000)
 }
